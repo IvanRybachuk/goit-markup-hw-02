@@ -4,19 +4,32 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="./index.html" />
+    <style>
+      li {
+        list-style-type: none;
+      }
+
+      ul {
+        margin-left: 0;
+        padding-left: 0;
+      }
+    </style>
+    <link rel="stylesheet" href="./page2.html" />
   </head>
   <body>
+    <!--Шапка-->
     <header>
-      <h2>
-        <a href="https://ivanrybachuk.github.io/goit-markup-hw-01/"
-          >Web Studio</a
-        >
-      </h2>
-      <ul>
-        <li><a href="">Студия</a></li>
-        <li><a href="">Портфолио</a></li>
-        <li><a href="">Контакты</a></li>
-      </ul>
+      <nav>
+        <h2>
+          <a href="./index.html">Web Studio</a>
+        </h2>
+        <ul>
+          <li><a href="./index.html">Студия</a></li>
+          <li><a href="">Портфолио</a></li>
+          <li><a href="">Контакты</a></li>
+        </ul>
+      </nav>
 
       <ul>
         <li>
@@ -31,15 +44,18 @@
     </header>
   </body>
 
+  <!--Наши работы-->
   <main>
-    <ul>
-      <li>Все</li>
-      <li>Веб-сайты</li>
-      <li>Приложения</li>
-      <li>Дизайн</li>
-      <li>Маркетинг</li>
-    </ul>
+    <nav>
+      <button type="button">Все</button>
+      <button type="button">Веб-сайты</button>
+      <button type="button">Приложения</button>
+      <button type="button">Дизайн</button>
+      <button type="button">Маркетинг</button>
+    </nav>
   </main>
+
+  <!--Подвал-->
   <footer>
     <section>
       <div>
@@ -52,7 +68,7 @@
       </div>
 
       <div>
-        <h2>присоединяйтесь</h2>
+        <p>присоединяйтесь</p>
         <a href=""><img src="./img/ellipse4.svg" alt="" /></a>
         <a href=""><img src="./img/ellipse1.svg" alt="" /></a>
         <a href=""><img src="./img/ellipse2.svg" alt="" /></a>
@@ -60,7 +76,7 @@
       </div>
 
       <div>
-        <h2>Подпишитесь на рассылку</h2>
+        <p>Подпишитесь на рассылку</p>
         <input type="text" name="E-mail" placeholder="E-mail" />
         <button>
           Подписаться
