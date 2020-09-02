@@ -28,7 +28,16 @@ a {
 }
 
 .list {
+    margin-bottom: 0px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 0px;
+    justify-content: space-between;
     list-style: none;
+    padding: 0px;
+        display: flex;
+        margin-right: auto;
+        align-items: center;
 }
 
 .logo {
@@ -38,6 +47,7 @@ a {
     line-height: 1.192;
     letter-spacing: 0.03em;
     color: var(--black);
+    padding-right: 93px;
 }
 
 .logo span {
@@ -81,9 +91,55 @@ a {
 
 .adrress-contacts {
     color: rgba(255, 255, 255, 0.6);
+    margin-bottom: 9px;
 }
 
 .call-to-activity {
     text-transform: uppercase;
     color: var(--white);
+}
+
+
+.container {
+width: 1200px;
+padding-left: 15px;
+padding-right: 15px;
+margin: 0 auto;
+}
+
+.main-container {
+    padding: 200px 452px 280px;
+}
+
+.adrress {
+    padding: 0px;
+    list-style: none;
+}
+
+.list-item-container {
+    font-size: 0px;
+}
+
+
+.footer {
+    padding: 60px;
+}
+
+.logo-footer {
+    margin-bottom: 20px;
+}
+
+.list-footer {
+    margin: 0;
+    padding: 0;
+    font-style: normal;
+    list-style: none;
+}
+
+.adrress-item {
+margin-bottom: 9px;
+}
+
+.adrress-contacts:last-of-type {
+    margin-bottom: 0px;
 }

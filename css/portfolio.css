@@ -7,10 +7,15 @@ body {
     letter-spacing: 0.03em;
 }
 
-/* 'Raleway', sans-serif; */
-/* font-family: 'Roboto', sans-serif; */
 
 .btn {
+    width: 128px;
+    height: 38px;
+    left: 576px;
+    top: 174px;
+    padding: 0;
+    margin-right: 8px;
+    border: none;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.625;
@@ -19,6 +24,9 @@ body {
     background: #f5f4fa;
     border-radius: 4px;
 }
+
+
+
 
 .btn:hover,
 .btn:focus {
@@ -40,4 +48,45 @@ body {
     line-height: 1.875;
     letter-spacing: 0.03em;
     color: var(--grey);
+}
+
+.button-list {
+    margin-bottom: 50px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 0px;
+    list-style: none;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.filter {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.projects-list, .modern {
+        width: 1230px;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-top: 0px;
+        list-style: none;
+        margin-left: auto;
+        margin-right: auto;
+}
+
+.projects-list {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.list-type-project {
+    margin-right: 30px;
+    width: 380px;
+}
+
+.list-tupe-project:nth-last-child(3n) {
+    margin-right: 0;
 }
