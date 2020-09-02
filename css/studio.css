@@ -10,7 +10,6 @@ body {
 
 .hero {
     background-color: rgba(47, 48, 58, 0.8);
-    text-align: center;
 }
 
 .section-title {
@@ -22,8 +21,6 @@ body {
     color: var(--primary-text-color);
 }
 .hero-title {
-    margin-top: 0;
-    margin-bottom: 40px;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.364;
@@ -34,8 +31,6 @@ body {
 }
 
 .btn-main {
-    border-radius: 4px;
-    padding: 10px 32px ;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.875;
@@ -44,7 +39,6 @@ body {
     letter-spacing: 0.06em;
     color: var(--white);
     background-color: var(--accept-color);
-    border-color: var(--accept-color);
 }
 
 .advantages-title {
@@ -65,16 +59,4 @@ body {
 .team-profession {
     font-size: 16px;
     line-height: 1.187;
-}
-
-.list menu-list {
-    padding: 0;
-    margin: 0;
-}
-
-.container {
-    margin: 0 auto
-    width: 1600px;
-    text-align: center;
-    margin-top: 93px;
 }
